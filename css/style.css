@@ -1,0 +1,145 @@
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sidebar {
+    float: left;
+    width: 18%;
+    height: 100%;
+    background: #005555;
+    color: white;
+    padding: 2.5em 3em;
+}
+
+#sidebar #profile-pic {
+    border-radius: 50%;
+    width: 150px;
+}
+
+#sidebar .pic-name {
+    text-align: center;
+}
+
+#sidebar .pic-name h1 {
+    font-size: 24px;
+}
+
+#sidebar .position {
+    text-align: center;
+    color: rgb(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 0.3em;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+#sidebar li {
+    margin-bottom: 0.2em;
+    font-size: 16px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+#sidebar a {
+    color: #00BBBB;
+}
+
+#sidebar a:active {
+    color: #FFFFFF;
+}
+
+.two-bars {
+    position: relative;
+    margin: 0.3em 0 1.5em 0;
+}
+
+.gray-bar {
+    background: rgb(255, 255, 255, 0.7);
+    height: 5px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.white-bar {
+    background: white;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#bar1 {
+    width: 125px;
+}
+
+#bar2 {
+    width: 200px;
+}
+
+#bar3 {
+    width: 145px;
+}
+
+#bar4 {
+    width: 200px;
+}
+
+#bar5 {
+    width: 200px;
+}
+
+#bar6 {
+    width: 140px;
+}
+
+.main-body {
+    float:right;
+    max-width: 70%;
+    padding: 2em 1em;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.main-body h2 {
+    font-size: 28px;
+    margin: 1.3em 0 0.2em 0;
+}
+
+.main-body .profile p {
+    margin: 0.2em 0 1em 0;
+}
+
+.main-body h3 {
+    font-size: 20px;
+    margin: 0.5em 0 0 0;
+}
+
+.main-body h4 {
+    margin: 0;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main-body ul {
+    margin: 0.3em 0 0.4em 0;
+    padding-left: 2em;
+}
+
+.main-body .references-section p {
+    margin: 0.2em 0;
+}
