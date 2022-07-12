@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;700&family=Finlandica:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+}
+
 body {
     background: white;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Finlandica';
 }
 
 #sidebar {
     float: left;
     width: 18%;
-    height: 100%;
+    min-height: 100%;
     background: #005555;
     color: white;
     padding: 2.5em 3em;
@@ -24,6 +30,7 @@ body {
 
 #sidebar .pic-name h1 {
     font-size: 24px;
+    font-family: 'Edu SA Beginner';
 }
 
 #sidebar .position {
@@ -36,6 +43,7 @@ body {
 #sidebar h2 {
     font-size: 20px;
     margin-bottom: 0.3em;
+    font-family: 'Edu SA Beginner';
 }
 
 #sidebar ul {
@@ -117,6 +125,7 @@ body {
 .main-body h2 {
     font-size: 28px;
     margin: 1.3em 0 0.2em 0;
+    font-family: 'Edu SA Beginner';
 }
 
 .main-body .profile p {
